@@ -109,10 +109,47 @@ main p {
     width: 12.4rem;
     right: 1.6rem;
     top: 1.6rem;
+
+    animation: topdown 1500ms 350ms backwards;
 }
 
 .product img {
     object-fit: cover;
     width: 100%;
+    animation: downtop 1500ms 350ms backwards;
+}
 
+@keyframes topdown {
+    0% {
+      opacity: 0;
+      transform: translateY(-25px);
+    }
+  
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  
+  @keyframes downtop {
+    0% {
+      opacity: 0;
+      transform: translateY(25px);
+    }
+  
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }

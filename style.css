@@ -28,7 +28,7 @@ body {
 }
 
 .page {
-    margin: 0 auto;
+
     max-width: 45rem;
 }
 
@@ -38,7 +38,6 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: auto;
     
 
     background-color: var(--bck-color-header);
@@ -86,10 +85,9 @@ header p{
 }
 
 main {
-    gap: 3.2rem;
-
+    gap: 1.5rem;
     padding: 3.2rem;
-    margin-top: 1.4rem;
+
 }
 
 .product {
@@ -197,8 +195,8 @@ footer a {
 
   @media (min-width: 950px) {
     .page {
-      max-width: 100%;
-      margin: 0 auto;
+      margin-right: 0;
+      max-width: 1350px;
       display: flex;
       flex-direction: row;
     }
@@ -210,6 +208,8 @@ footer a {
       'B C F'
       'B D F'
       'footer footer footer';
+
+      padding-left: 9.8rem;
       /* gap: 100px; */
     }
 
@@ -219,11 +219,10 @@ footer a {
 
     header {
       animation: main 1500ms 350ms backwards;
-
-      max-width: 50%;
-      height: auto;
       
       justify-content: flex-start;
+      
+      height: 71.3rem;
       max-width: 40rem;
     }
 
@@ -232,6 +231,8 @@ footer a {
     }
 
     .product {
+      margin-top: 0;
+
       transition: all 200ms;
     }
     

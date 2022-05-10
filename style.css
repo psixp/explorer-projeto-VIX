@@ -288,3 +288,18 @@ footer a {
 
 
   }
+
+  @media (min-width: 1550px) {
+    .page {
+      margin-right: 0;
+      max-width: 1900px;
+    }
+
+    header{
+      height: 92.9rem;
+    }
+
+    main {
+      gap: 2.0rem;
+    }
+  }
